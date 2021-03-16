@@ -93,4 +93,9 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    @Test
+    void intentionalFailedTest(){//intentionally fails test to test travis ci integration
+        assertEquals(1, 2);
+    }
 }

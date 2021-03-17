@@ -96,8 +96,8 @@ class CityListTest {
 
     @Test
     void intentionalFailedTest(){//intentionally fails test to test travis ci integration
-        //assertEquals(1, 2);
+        assertEquals(1, 2);
         //make the test pass
-        assertEquals(1, 1);
+        //assertEquals(1, 1);
     }
 }
